@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Space Grotesk", sans-serif;
+     background-color: rgb(220, 220, 220);
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.mainlogo{
+    height: 100px;
+   width: auto;
+   max-width: 100%;
+   margin-left: 10px;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.headercontent{
+    position: relative;
+}
+    .maintext{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #680815;
+    
+}
+.img-box{
+   display: inline-flex;
+align-items: center;
+gap: 20px;
+}
+.textimg{
+    height: 55px;
+    width: auto;
+    margin: 0px 8px;
+   
+}
+.headertagline p{
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 20px;
+   text-align: end;
+    text-transform: uppercase;
+    padding-right: 20px;
+    color: #680815;
+}
+.fadetext{
+     color: #81595e;
+}
+.maincontent{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    padding:   0px 10px;
+}
+.contentleft{
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.contentright{
+    flex: 0 0 60%;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.rightpara{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #680815;
+}
+.faceimg{
+    height: 300px;
+    width: auto;
+}
+.images{
+    display: flex;
+    gap: 20px;
+}
+.cl-heading{
+    font-size: 40px;
+    text-decoration: underline;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #680815;
+}
